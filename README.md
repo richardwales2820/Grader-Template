@@ -11,3 +11,17 @@ Create, update, and use grading feedback templates online for speed grading sess
 ### Down the Road
 - Have code from student open in window adjacent to the template for easy viewing (Easier than manually opening in two separate windows?)
 - Use Canvas API to automatically post the final comments to the student's assignment submission, along with updating their score.
+
+## Thoughts
+
+- Models
+    - Assignment Table
+        - Unique ID
+        - Name
+        - Total Score
+        - Instructions for the assignment grading
+    - Feedback Comment Table
+        - Unique ID
+        - Assignment ID that it pertains to
+        - How many points this comment removes from final score
+        - The actual comment that should appear in the final message
